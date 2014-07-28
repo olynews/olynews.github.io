@@ -1,10 +1,10 @@
 # Site settings
-title: newsnw starterkit
+title: olynews.org
 description: ""
 baseurl: ""
 url: ""
-twitter_username: newsnorthwest
-github_username:  newsnw
+twitter_username: oly_news
+github_username:  olynews
 google_analytics:
 
 # Build settings

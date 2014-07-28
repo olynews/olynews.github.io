@@ -1,6 +1,6 @@
 {
-  "name": "newsnw-jekyll-starterkit",
-  "description": "starterkit for newsnw projects",
+  "name": "olynews.org",
+  "description": "the main olynews.org site",
   "version": "0.1.0",
   "repository": {
     "url": "git://github.com/sethvincent/newsnw-jekyll-starterkit.git"
