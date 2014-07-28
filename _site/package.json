@@ -1,0 +1,28 @@
+{
+  "name": "newsnw-jekyll-starterkit",
+  "description": "starterkit for newsnw projects",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/newsnw-jekyll-starterkit.git"
+  },
+  "main": "",
+  "scripts": {
+    "bundle-css": "rework-npm style.css | myth > bundle/app.css",
+    "bundle-js": "browserify app.js -o bundle/app.js -t brfs",
+    "bundle": "npm run bundle-css & npm run bundle-js",
+    "watch-js": "watchify app.js -o bundle/app.js -t brfs",
+    "watch-css": "gazer -p style.css npm run bundle-css",
+    "watch": "npm run watch-js & npm run watch-css",
+    "start": "npm run watch"
+  },
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^5.9.1",
+    "clean-css": "^2.2.11",
+    "gazer": "0.0.3",
+    "myth": "^1.1.1",
+    "rework-npm-cli": "^0.1.1",
+    "watchify": "^1.0.1"
+  },
+  "devDependencies": {}
+}

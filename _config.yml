@@ -1,0 +1,12 @@
+# Site settings
+title: newsnw starterkit
+description: ""
+baseurl: ""
+url: ""
+twitter_username: newsnorthwest
+github_username:  newsnw
+google_analytics:
+
+# Build settings
+markdown: kramdown
+permalink: none
