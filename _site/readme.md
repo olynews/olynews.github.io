@@ -1,6 +1,6 @@
-# newsnw-jekyll-starter
+# olynews.org
 
-This is for starting new projects for newsnw.org.
+The main olynews.org site.
 
 
 ## License

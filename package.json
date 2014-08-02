@@ -7,12 +7,8 @@
   },
   "main": "",
   "scripts": {
-    "bundle-css": "rework-npm style.css | myth > bundle/app.css",
-    "bundle-js": "browserify app.js -o bundle/app.js -t brfs",
-    "bundle": "npm run bundle-css & npm run bundle-js",
-    "watch-js": "watchify app.js -o bundle/app.js -t brfs",
-    "watch-css": "gazer -p style.css npm run bundle-css",
-    "watch": "npm run watch-js & npm run watch-css",
+    "watch": "watchify app.js -o bundle/app.js -t brfs",
+    "bundle": "browserify app.js -o bundle/app.js -t brfs",
     "start": "npm run watch"
   },
   "dependencies": {

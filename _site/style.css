@@ -1,20 +1,10 @@
-:root {
-  --off-white: #f9faf8;
-  --black: #333;
-  --primary-color: #F34A53;
-  --accent-color:#FCEBCA;
-  --action-color: #1388A0;
-  --serif: Lora, Georgia, serif;
-  --sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-}
-
 html,
 body,
 input,
 button,
 select,
 textarea {
-  font-family: var(--sans-serif);
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: #444;
@@ -23,18 +13,19 @@ textarea {
   font-weight: 300;
 }
 
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   height: 100%;
 }
 
 body {
-  border-top: 3px solid var(--primary-color);
+  border-top: 3px solid #F34A53;
 }
 
 p {
-  font-family: var(--serif);
+  font-family: Lora, Georgia, serif;
 }
 
 *,
@@ -45,9 +36,13 @@ p {
   box-sizing: border-box;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
-  font-family: var(--sans-serif);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   margin: 0px;
   font-weight: 300;
   line-height: 1.5;
@@ -55,14 +50,14 @@ h4, h5, h6 {
 }
 
 a {
-  color: var(--action-color);
+  color: #1388A0;
   text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: color(var(--action-color) shade(20%));
+  color: rgb(15, 109, 128);
 }
 
 b {
@@ -112,7 +107,7 @@ img.headshot {
 }
 
 .serif {
-  font-family: var(--serif);
+  font-family: Lora, Georgia, serif;
 }
 
 input[type=text],
@@ -130,7 +125,7 @@ input[type=password] {
 button,
 .button,
 input[type="submit"] {
-  font-family: var(--sans-serif);
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #015770;
   color: #fefefa;
   border-radius: 2px;
@@ -173,16 +168,16 @@ a.button:hover {
 header {
   width: 100%;
   font-weight: 100;
-  font-family: var(--sans-serif);
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   margin-bottom: 50px;
 }
 
 .site-title {
-  font-family: var(--serif);
+  font-family: Lora, Georgia, serif;
   font-style: italic;
   text-align: center;
   margin-top: 0px;
-  background-color: var(--primary-color);
+  background-color: #F34A53;
   color: #fff;
   font-size: 20px;
   padding: 0px 15px;
@@ -237,7 +232,7 @@ header ul.nav a {
   font-size: 12px;
 }
 
-@media (min-width:600px){
+@media (min-width:600px) {
   header ul.nav a {
     padding: 8px 15px;
     font-size: 15px;
@@ -247,10 +242,6 @@ header ul.nav a {
 header ul.nav a:hover,
 header ul.nav a:focus {
   color: #000;
-}
-
-main {
-
 }
 
 main h1 {
@@ -268,7 +259,7 @@ main h1 {
   display: block;
   border-left: 6px solid #efefef;
   margin-bottom: 6px;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .container {
@@ -282,7 +273,60 @@ main h1 {
   display: none;
 }
 
+/*
+*
+* TUMBLR STYLES
+*
+*/
 
+.tumblr_posts {
+  padding: 0px;
+  margin: 0px auto;
+  max-width: 550px;
+}
+
+.tumblr_post {
+  list-style-type: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 50px;
+}
+
+.tumblr_post img {
+  width: 100%;
+}
+
+.tumblr_title,
+.tumblr_link {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+blockquote {
+  margin-left: 10px;
+  border-left: 1px solid #efefef;
+  padding-left: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.subheader {
+  padding-bottom: 5px;
+  margin: 30px 0px 20px 0px;
+  border-bottom: 1px solid #efefef;
+}
+
+#social {
+  text-align: center;
+  font-size: 30px;
+  margin: 5px 0px 30px 0px;
+}
+
+#social a {
+  margin: 0px 5px;
+}
 
 @media (min-width: 700px) {
   .container {
@@ -296,7 +340,6 @@ main h1 {
   .button.big {
     padding: 18px 15px 16px 15px;
   }
-
 }
 
 @media (min-width: 950px) {
@@ -311,7 +354,6 @@ main h1 {
   display: table;
   clear: both;
 }
-
 
 .container,
 .clearfix {
