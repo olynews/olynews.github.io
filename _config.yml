@@ -1,10 +1,10 @@
 # Site settings
-title: olynews.org
+title: The Percival
 description: ""
 baseurl: ""
 url: ""
 twitter_username: oly_news
-github_username:  olynews
+github_username:  the-percival
 google_analytics:
 
 # Build settings
