@@ -3,17 +3,19 @@ layout: page
 ---
 
 <div class="container">
-  <h1>{{ site.title }}</h1>
 
-  <div id="social">
-    <a href="https://twitter.com/percivalnews"><i class="fa fa-twitter"></i></a>
-    <a href="http://percivalnews.tumblr.com/"><i class="fa fa-tumblr"></i></a>
-    <a href="https://www.facebook.com/newsnw"><i class="fa fa-facebook"></i></a>
+  <div class="row">
+    <div class="col-xs-12 col-md-7">
+      <h3 class="subheader">Recent posts from <a href="http://percivalnews.tumblr.com">our tumblr</a>:</h3>
+      <div id="latest-tumblr-posts" class=""></div>
+      <p class="center-text">
+        <a class="button" href="http://percivalnews.tumblr.com">
+          Read more at percivalnews.tumblr.com
+        </a>
+      </p>
+    </div>
   </div>
 
-  <h3 class="subheader center-text">Recent posts from <a href="http://olynews.tumblr.com">our tumblr</a>:</h3>
-
-  <script src="http://percivalnews.tumblr.com/js"></script>
-
-  <p class="center-text"><a class="button" href="http://percivalnews.tumblr.com">Read more at percivalnews.tumblr.com</a></p>
 </div>
+
+<script src="{{ site.baseurl}}/assets/app.js"></script>

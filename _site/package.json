@@ -1,24 +1,28 @@
 {
-  "name": "olynews.org",
-  "description": "the main olynews.org site",
+  "name": "the-percival",
+  "description": "news for olympia",
   "version": "0.1.0",
   "repository": {
-    "url": "git://github.com/sethvincent/newsnw-jekyll-starterkit.git"
+    "url": "git://github.com/the-percival/the-percival.github.io.git"
   },
   "main": "",
   "scripts": {
-    "watch": "watchify app.js -o bundle/app.js -t brfs",
-    "bundle": "browserify app.js -o bundle/app.js -t brfs",
+    "watch": "watchify js/app.js -o assets/app.js -t brfs",
+    "bundle": "browserify js/app.js -o assets/app.js -t brfs",
     "start": "npm run watch"
   },
   "dependencies": {
-    "brfs": "^1.2.0",
-    "browserify": "^5.9.1",
+    "handlebars": "^2.0.0",
+    "moment": "^2.8.3",
+    "tumblr-posts": "0.0.1"
+  },
+  "devDependencies": {
     "clean-css": "^2.2.11",
     "gazer": "0.0.3",
     "myth": "^1.1.1",
     "rework-npm-cli": "^0.1.1",
-    "watchify": "^1.0.1"
-  },
-  "devDependencies": {}
+    "brfs": "^1.2.0",
+    "browserify": "^5.11.1",
+    "watchify": "^1.0.2"
+  }
 }

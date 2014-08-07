@@ -3,20 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>olynews.org</title>
+  <title>The Percival</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="">
   <link rel="canonical" href="/">
 
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700|Lora:400,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/normalize.css">
+    <link rel="stylesheet" href="/assets/flexboxgrid.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
 
 <header>
   <div class="container">
-    <h1 class="site-title"><a href="/">olynews.org</a></h1>
+    <h1 class="site-title"><a href="/">The Percival</a></h1>
 
     <ul class="nav">
       <li>
@@ -31,30 +33,68 @@
 
 <main role="main">
   <div class="container">
-  <div class="post">
+  <div class="row">
+    <div class="page col-xs-12 col-md-7">
 
-    <header class="post-header">
-      <h1 class="post-title"></h1>
-    </header>
+      
 
-    <article class="post-content">
-    <div class="container">
-  <h1>olynews.org</h1>
+      <article class="page-content">
+      <div class="container">
 
-  <div id="social">
-    <a href="https://twitter.com/oly_news"><i class="fa fa-twitter"></i></a>
-    <a href="http://olynews.tumblr.com/"><i class="fa fa-tumblr"></i></a>
-    <a href="https://www.facebook.com/newsnw"><i class="fa fa-facebook"></i></a>
+  <div class="row">
+    <div class="col-xs-12 col-md-7">
+      <h3 class="subheader">Recent posts from <a href="http://percivalnews.tumblr.com">our tumblr</a>:</h3>
+      <div id="latest-tumblr-posts" class=""></div>
+      <p class="center-text">
+        <a class="button" href="http://percivalnews.tumblr.com">
+          Read more at percivalnews.tumblr.com
+        </a>
+      </p>
+    </div>
   </div>
 
-  <h3 class="subheader center-text">Recent posts from <a href="http://olynews.tumblr.com">our tumblr</a>:</h3>
-
-  <script src="http://olynews.tumblr.com/js"></script>
-
-  <p class="center-text"><a class="button" href="http://olynews.tumblr.com">Read more at olynews.tumblr.com</a></p>
 </div>
 
-    </article>
+<script src="/assets/app.js"></script>
+
+      </article>
+    </div>
+
+
+    <div id="sidebar" class="col-xs-12 col-md-5">
+  <img src="/assets/oly.jpg" style="width:100%;">
+  <hr>
+  <p><i>The Percival</i> is a news site for Olympia, Washington. We’re interested in covering things that is deserving of more attention and giving more context for larger issues and debates in Olympia. <i>The Percival</i> is a pilot project of <a href="http://newsnw.org" target="_blank">newsnw.org</a>, a technology & civic-engagement focused startup news organization.</p>
+
+  <hr>
+  <h3>Get Olympia news in your inbox each week:</h3>
+  <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup">
+  <form action="//newsnw.us9.list-manage.com/subscribe/post?u=dc028cdc4b1b1a23fe008f148&amp;id=5e501649d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your email address">
+    <input type="hidden" value="thepercival.com" name="SOURCE" class="required email" id="mce-SOURCE">
+    <input type="submit" value="Join the newsletter" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_dc028cdc4b1b1a23fe008f148_5e501649d4" tabindex="-1" value=""></div>
+  </form>
+  </div>
+  <!--End mc_embed_signup-->
+
+  <hr>
+
+  <div id="social">
+    <div><a href="https://twitter.com/percivalnews" class="button"><i class="fa fa-twitter"></i> &nbsp; &nbsp; @percivalnews</a></div>
+    <div><a href="http://percivalnews.tumblr.com/" class="button"><i class="fa fa-tumblr"></i> &nbsp; &nbsp; percivalnews on tumblr</a></div>
+    <div><a href="https://www.facebook.com/newsnw" class="button"><i class="fa fa-facebook"></i> &nbsp; &nbsp; newsnw</a></div>
+  </div>
+</div>
+
 
   </div>
 </div>

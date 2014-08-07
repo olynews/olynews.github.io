@@ -1,6 +1,6 @@
-# olynews.org
+# The Percival
 
-The main olynews.org site.
+The main site for The Percival. thepercival.com
 
 
 ## License

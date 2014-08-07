@@ -5,8 +5,8 @@ button,
 select,
 textarea {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.4;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  border-top: 3px solid #F34A53;
+  border-top: 3px solid #1388A0;
 }
 
 p {
@@ -126,10 +126,10 @@ button,
 .button,
 input[type="submit"] {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #015770;
+  background-color: #DD5B5B;
   color: #fefefa;
   border-radius: 2px;
-  border: 1px solid #015770;
+  border: 1px solid #DD5B5B;
   font-weight: 400;
   cursor: pointer;
   font-size: 14px;
@@ -148,8 +148,8 @@ button:focus,
 .button:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  background-color: #013545;
-  border-color: #013545;
+  background-color: #AE2424;
+  border-color: #AE2424;
   color: #fff;
 }
 
@@ -177,7 +177,7 @@ header {
   font-style: italic;
   text-align: center;
   margin-top: 0px;
-  background-color: #F34A53;
+  background-color: #1388A0;
   color: #fff;
   font-size: 20px;
   padding: 0px 15px;
@@ -200,7 +200,7 @@ header {
 .site-description {
   font-size: 13px;
   text-align: right;
-  background-color: #FCEBCA;
+  background-color: #9BDD7C;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   float: right;
@@ -210,7 +210,7 @@ header {
 }
 
 header ul.nav {
-  background-color: #FCEBCA;
+  background-color: #F2FFCC;
   margin: 0px;
   padding: 7px 6px 5px;
   text-align: right;
@@ -244,12 +244,6 @@ header ul.nav a:focus {
   color: #000;
 }
 
-main h1 {
-  text-align: center;
-  font-size: 70px;
-  font-weight: 200;
-}
-
 .projects {
   width: 300px;
   margin: 50px auto;
@@ -273,59 +267,99 @@ main h1 {
   display: none;
 }
 
-/*
-*
-* TUMBLR STYLES
-*
-*/
-
-.tumblr_posts {
-  padding: 0px;
-  margin: 0px auto;
-  max-width: 550px;
-}
-
-.tumblr_post {
-  list-style-type: none;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef;
-  margin-bottom: 50px;
-}
-
-.tumblr_post img {
-  width: 100%;
-}
-
-.tumblr_title,
-.tumblr_link {
-  font-weight: 400;
-  font-size: 30px;
-}
-
-blockquote {
-  margin-left: 10px;
-  border-left: 1px solid #efefef;
-  padding-left: 10px;
-}
-
 .center-text {
   text-align: center;
 }
-
 .subheader {
   padding-bottom: 5px;
   margin: 30px 0px 20px 0px;
   border-bottom: 1px solid #efefef;
 }
 
+
+/*
+*
+* POSTS & PAGES
+*
+*/
+
+.post-header,
+.page-header {
+  margin-bottom: 0px;
+}
+
+h1.post-title,
+h1.page-title {
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #F2FFCC;
+  margin-bottom: 15px;
+}
+
+/*
+*
+* TUMBLR STYLES
+*
+*/
+
+.tumblr-latest-post {
+  padding: 10px 15px;
+  display: block;
+  margin-bottom: 20px;
+  border-left: 10px solid #F2FFCC;
+}
+
+.tumblr-latest-post:hover {
+  background-color: #F2FFCC;
+}
+
+.tumblr-latest-post-date {
+  font-size: 70%;
+  text-transform: uppercase;
+}
+
 #social {
-  text-align: center;
-  font-size: 30px;
-  margin: 5px 0px 30px 0px;
+  font-size: 20px;
+  margin: 0px 0px 5px 0px;
 }
 
 #social a {
-  margin: 0px 5px;
+  background-color: #F2FFCC;
+  border-color: #F2FFCC;
+  color: #444;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+#social a:hover {
+  background-color: #DFFF80;
+}
+
+#sidebar h3 {
+  font-size: 80%;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+#sidebar input {
+  width: 100%;
+}
+
+#sidebar button,
+#sidebar .button {
+  width: 100%;
+  display: block;
+}
+
+#sidebar p {
+  margin-bottom:
+}
+
+#sidebar hr {
+  margin: 15px 0px;
 }
 
 @media (min-width: 700px) {
@@ -345,6 +379,12 @@ blockquote {
 @media (min-width: 950px) {
   .container {
     width: 900px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: 1050px;
   }
 }
 

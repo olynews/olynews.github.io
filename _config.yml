@@ -10,3 +10,4 @@ google_analytics:
 # Build settings
 markdown: kramdown
 permalink: /posts/:title/
+exclude: [node_modules, js]

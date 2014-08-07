@@ -1,0 +1,10 @@
+<div id="tumblr-latest-posts">
+{{#each posts}}
+  {{#if title.length}}
+  <a href="{{post_url}}" class="tumblr-latest-post">
+    <h3 class="tumblr-latest-post-title">{{title}}</h3>
+    <span class="tumblr-latest-post-date">{{formatDate date}}</span>
+  </a>
+  {{/if}}
+{{/each}}
+</div>
