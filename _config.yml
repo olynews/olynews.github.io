@@ -5,7 +5,7 @@ baseurl: ""
 url: ""
 twitter_username: percivalnews
 github_username:  the-percival
-google_analytics:
+google_analytics: UA-52965769-4
 
 # Build settings
 markdown: kramdown
