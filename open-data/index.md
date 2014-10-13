@@ -8,7 +8,7 @@ published: true
 
 What data does Olympia make available to the public? How do we find it? How does Olympia compare to other cities in towns in Washington and across the country?
 
-Using the US City Open Data Census as a guide, we'll be exploring what Olympia has available and how you can access and use the data. In cases where the data is not available, we'll be making public record requests for that data and making it available on the website of _The Percival_.
+Using the [US City Open Data Census](http://us-city.census.okfn.org/) as a guide, we'll be exploring what Olympia has available and how you can access and use the data. In cases where the data is not available, we'll be making public record requests for that data and making it available on the website of _The Percival_.
 
 ---
 
